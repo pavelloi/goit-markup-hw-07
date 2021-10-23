@@ -7,9 +7,9 @@
 }
 .nav__item {
   margin-right: 50px;
-}
-.nav__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .nav__link {
   display: block;

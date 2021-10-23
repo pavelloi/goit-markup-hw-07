@@ -5,9 +5,9 @@
 }
 .button__title {
   margin-right: 8px;
-}
-.button__title:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .button__item {
   padding: 6px 22px;

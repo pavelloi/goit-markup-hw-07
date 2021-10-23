@@ -20,9 +20,9 @@
 .network__item {
   margin-right: 10px;
   justify-content: center;
-}
-.network__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .network__link {
   display: flex;
